@@ -22,8 +22,6 @@ import java.util.Set;
 @Table(name = "Users")
 public class User {
     @Id
-    @Column(name = "user_id", nullable = false)
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private String id;
     private String firstName;
     private String lastName;
